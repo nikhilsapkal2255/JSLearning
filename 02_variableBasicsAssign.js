@@ -20,4 +20,5 @@ var NationalCapital = "Delhi";
 console.log("National Capital:", NationalCapital, "Data Type: String");
 
 console.log("========Difference between null vs undefined=========");
-console.log();
+console.log("Null means value is assigned but it is set to be Null");
+console.log("Undefined means value does not assign to variable");
