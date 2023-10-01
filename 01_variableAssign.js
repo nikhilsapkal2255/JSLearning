@@ -6,23 +6,22 @@ var myLove= "I Love only JS";
 console.log(myLove);
 
 var firstName = "firstName";
-console.log(firstName);
+console.log(firstName, ": Nikhil");
 
 var lastName = "lastName";
-console.log(lastName);
+console.log(lastName, ": Sapkal");
 
 var age="age";
-console.log(age);
+console.log(age, ": 26 years");
 
 var address="address";
-console.log(address);
+console.log(address,": Tathawade, Pimpri Chinchwad");
 
 var pincode="pinCode";
-console.log(pincode);
+console.log(pincode,": 411033");
 
 var gender="gender";
-console.log(gender);
+console.log(gender, ": Male");
 
 var ismarried="isMarried";
-console.log(ismarried);
-
+console.log(ismarried, ": Yes");
