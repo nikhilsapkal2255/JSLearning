@@ -16,3 +16,12 @@ function swap(valueOne, valueTwo) { // function declaration
 swap(100,200); // function call / invocation
 swap("anushka","virat")
 swap("pune","mumbai")
+
+console.log("=======3. Function Type: Function With Argument and return type==========");
+
+function sqaure(num){
+    var result = num * num;
+    return result;
+}
+var sqaureNum = sqaure (5);
+console.log('Num is 5 and its sqare is:', squareNum);
