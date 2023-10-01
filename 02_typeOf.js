@@ -27,6 +27,6 @@ console.log("*******A******");
 var totalCount="Hundred and Seven";
 console.log("Total Count=", totalCount, "; Data Type=", typeof totalCount );
 
-
+console.log("*******B******");
 var totalCount= 107;
 console.log("Total Count=", totalCount, "; Data Type=", typeof totalCount );
