@@ -55,3 +55,34 @@ var city = "  My city is Pune              ";
 var beforeTrim = city.length;
 var cityAfterEndTrim = city.trimEnd();
 city.trimEnd();
+
+console.log("==================include()=================");
+var result = greet.includes('Morning');
+console.log("Is morning word available:  ",result);
+
+console.log("==================search()=================");
+var result = greet.search('n');
+console.log(result);
+
+console.log('=========Slice=========');
+var greet = "hello good morning buddy!!!!";
+var result = greet.slice(6);
+console.log(result);
+var result = greet.slice(6,10);
+console.log(result);
+
+console.log("=========Split===========");
+var result= greet.split(" ");
+console.log(result);
+
+var str = "I am UI Developer";
+var words = str.split(" ");
+console.log(words);
+console.log('Total word is : ', words.length);
+
+console.log(`I am "UI" Developer`);
+
+var num1=10;
+var num2=20;
+var result = num1+num2;
+console.log("Addition of", num1, "and",num2,"is : ", result);
