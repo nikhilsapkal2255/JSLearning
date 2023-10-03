@@ -23,7 +23,35 @@ var result = firstName.concat(lastName);
 console.log(result);
 
 console.log("========== indexOf==============");
-var greet.indexOf("M");
-console.log("Index of M is  ", indexOfM);
+var indexOfM = greet.indexOf('M');
+console.log("Index of M is:  ", indexOfM);
 
+console.log(greet.indexOf('nin'));
 
+console.log("Index of char Z : ",greet.indexOf('z'));
+
+console.log("Index of char D: ",greet.indexOf('D'));
+console.log("Index of char o : ",greet.indexOf('o'));
+
+console.log("============Replace===============");
+var result = greet.replace('Morning','Afternoon');
+console.log(result);
+var result = greet.replace(' ','-');
+console.log(result);
+console.log("============TOuPPERcASE===============");
+var insult = greet.toUpperCase('result');
+console.log(insult);
+
+console.log("==========TRIM============");
+var str = "           Good Afternoon     ";
+var lengthBeforeTrim = str.length;
+console.log("Length Before trim :  ", str.lenght);
+var result = str.trim();
+var lengthAfterTrim = str.length;
+console.log("Length after trim: ", result.length);
+console.log('Removed extra spaces are: ');
+
+var city = "  My city is Pune              ";
+var beforeTrim = city.length;
+var cityAfterEndTrim = city.trimEnd();
+city.trimEnd();
