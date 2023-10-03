@@ -79,6 +79,7 @@ var str = "I am UI Developer";
 var words = str.split(" ");
 console.log(words);
 console.log('Total word is : ', words.length);
+console.log(`Total word is : ${words.length}`);
 
 console.log(`I am "UI" Developer`);
 
@@ -86,3 +87,6 @@ var num1=10;
 var num2=20;
 var result = num1+num2;
 console.log("Addition of", num1, "and",num2,"is : ", result);
+console.log(`Addition of ${num1} and ${num2} is : ${result}`);
+
+
