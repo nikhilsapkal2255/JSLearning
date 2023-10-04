@@ -15,3 +15,8 @@ var result = num1%num2;
 console.log(`Modulus result is :  ${result}`);
 
 console.log(`Modulus result is :  ${15%4}`);
+
+console.log('=============Unary operator===============');
+var num1 = 10; 
+var result = num1++;
+console.log(`Result is :  ${result}`);
