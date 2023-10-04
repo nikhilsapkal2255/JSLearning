@@ -1,7 +1,7 @@
 
 
 function stringHandsOn(){
-    console.log('*******************03_stringHandsOn.js*********************');
+    console.log('*******************03_stringHandsOn.js(Assignment 1)NikhilSapkal*********************');
     var givenStr = "   Hey you are doing good, keep it up    ";
     console.log(`1. Given string is : ${givenStr}`);
     console.log(`2. Given string is : ${givenStr.length}`);
