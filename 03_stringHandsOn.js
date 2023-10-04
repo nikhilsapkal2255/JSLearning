@@ -10,7 +10,7 @@ function stringHandsOn(){
     var lengthAfterTrim = givenStr.length;
     console.log("3. Length after trim: ", result.length);
     console.log('4. Removed extra spaces are: ',givenStr.length-result.length);
-    console.log('5.',result.length-1);
+    console.log('5. First Character after trim is :',result.charAt(0), "Last character after trim is : ", result.charAt(33));
    console.log('6. Total word is : 8 ',); 
    
    var test = result.search('good');
