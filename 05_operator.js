@@ -20,3 +20,14 @@ console.log('=============Unary operator===============');
 var num1 = 10; 
 var result = num1++;
 console.log(`Result is :  ${result}`);
+
+
+var marks = 35;
+var result = marks >= 35;
+console.log(`pass ${result}`);
+
+// AND &&
+// OR ||
+// NOT !
+// JENNY SSCmARKS = 69 hscMarks= 60;
+// sscMarks >= 60 && hscMarks >= 60
