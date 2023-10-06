@@ -19,4 +19,21 @@ console.log(`Square of 89 is: ${result}`);
 var result = square(59);
 console.log(`Square of 59 is: ${result}`);
 console.log(`******************Step 2*******************`);
-console.log(`Type of function is ${typeof square}`);
+console.log(`Type of function is : ${typeof square}`);
+console.log(`******************Step 3*******************`);
+
+var totalArea = function area(length, width) {
+    return result = length*width;
+    console.log(result);
+}
+var result = totalArea(499,917);
+console.log(`Area of rectangle plot is ${result}`);
+
+console.log(`******************Step 4*******************`);
+var swapValues = function swap("value1","value2") {
+    return swapping = value1==value2;
+            value2 == temp;
+            temp == value1;
+}
+var swapValues("Mahi","Raina");
+console.log(swapping));
