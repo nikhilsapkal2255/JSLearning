@@ -14,4 +14,26 @@ for (let index = str.length-1 ; index >=0 ; index--){
 console.log(`Reverse string is ${reverseStr}`);
 
 //count the vowels
-var str = "I am UI Developer";
+var str = "i am ui Developer";
+var count = 0;
+for (let index = 0; index < str.length-1 ; index++) {
+    var char = str.charAt(index);
+    if (char=='a'||char=='e'||char=='i'||char=='o'||char=='u') {
+        count = count +1 ;
+    }
+}
+console.log(`Total no. of vowels are : ${count}`);
+
+console.log('===========================');
+var str = "I am ui Developer";
+var count = 0;
+var vowelCaps = "AEIOU";
+var vowelLower = 'aeiou';
+for (let index = 0; index < str.length-1 ; index++) {
+    var char = str.charAt(index).toUpperCase();
+    if (vowelCaps.includes(char) || vowelLower.includes(char) ) {
+        count = count +1 ;
+    }
+}
+console.log(`Total no. of vowels are : ${count}`);
+
