@@ -27,3 +27,12 @@ person.city="Pune";
 console.log(person);
 console.table(person);
 
+console.log(`Update property in object`);
+person.age = 22;
+console.log(person);
+
+console.log(`Delete property in object`);
+delete person.age;
+console.log(person);
+
+
