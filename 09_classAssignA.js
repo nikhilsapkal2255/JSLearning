@@ -58,7 +58,7 @@ class college {
         this.PinCode = PinCode;
     }
     //methods
-    details(){
+    display(){
         console.log(`College Name: ${this.collegeName}; Address ${this.Address};University ${this.University} ; Pincode ${this.PinCode}`);
     }
 }
@@ -82,6 +82,56 @@ for (const element of arrayOfCollege) {
 }
 
 console.log(`******************Step 3*********************`);
+
+class college {
+    //properties
+    collegeName
+    Address
+    University
+    PinCode
+
+    //constructor
+    constructor(collegeName, Address, University, PinCode){
+        this.collegeName = collegeName;
+        this.Address = Address;
+        this.University = University;
+        this.PinCode = PinCode;
+    }
+    //methods
+    display(){
+        console.log(`College Name: ${this.collegeName}; Address ${this.Address};University ${this.University} ; Pincode ${this.PinCode}`);
+    }
+}
+
+const n1 = new college(`RIT`,'Islampur','Chhatrapati Shivaji University','416415');
+
+const n2 = new college(`Walchand`,'Sangli','Chhatrapati Shivaji University','416416');
+
+const n3 = new college(`Dange`,'Ashta','Chhatrapati Shivaji University','416417');
+
+const n4 = new college(`COEP`,'Pune','Pune University','411033');
+
+function traversObject(colObject) {
+    for (const key in colObject) {
+                            console.log(`${key},${colObject[key]}`);
+    }
+}
+traverseObject(n1college);
+traverseObject(n2college);
+traverseObject(n3college);
+traverseObject(n4college);
+
+
+
+
+
+
+
+
+
+
+
+console.log(`My Code`);
 function traverseObject(objectcollege) {
     for (const collegeName in objectcollege) {
         console.log(`${collegeName}`);
